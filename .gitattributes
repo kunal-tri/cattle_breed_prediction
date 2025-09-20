@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+/cattle_breed_prediction/cattle_breed/best_convnext_large.pth filter=lfs diff=lfs merge=lfs -text
+/cattle_breed_prediction/cattle_breed/best_convnext_large_scripted.pt filter=lfs diff=lfs merge=lfs -text
+/cattle_breed_prediction/cattle_breed/ConvNeXt_Large.onnx filter=lfs diff=lfs merge=lfs -text
+/cattle_breed/best_convnext_large.pth filter=lfs diff=lfs merge=lfs -text
+/cattle_breed/best_convnext_large.pth filter=lfs diff=lfs merge=lfs -text
+/cattle_breed/ConvNeXt_Large.onnx filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,39 @@
+{
+    "model_name": "swin_small_patch4_window7_224",
+    "num_classes": 16,
+    "class_labels": [
+        "Brown_Swiss",
+        "Gir",
+        "Hariana",
+        "Holstein_Friesian",
+        "Jaffrabadi",
+        "Jersey",
+        "Kankrej",
+        "Mehsana",
+        "Murrah",
+        "Nili_Ravi",
+        "Ongole",
+        "Rathi",
+        "Red_Sindhi",
+        "Sahiwal",
+        "Surti",
+        "Tharparkar"
+    ],
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    }
+}
